@@ -1,0 +1,29 @@
+{
+    "bolaml": {
+        "checkpoints": [
+            {
+                "steps": 4000,
+                "file_path": "results\\examen01\\bolaml\\bolaml-4000.onnx",
+                "reward": -157.57000961303712,
+                "creation_time": 1698439559.2945492,
+                "auxillary_file_paths": [
+                    "results\\examen01\\bolaml\\bolaml-4000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4000,
+            "file_path": "results\\examen01\\bolaml.onnx",
+            "reward": -157.57000961303712,
+            "creation_time": 1698439559.2945492,
+            "auxillary_file_paths": [
+                "results\\examen01\\bolaml\\bolaml-4000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
